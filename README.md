@@ -24,7 +24,7 @@ This will set up the basic resources that will soon be linked to in your local e
 ## Step 3: Download files from kormos
 
 Using the method of your preference, download the current `cms.sqlite` database from the `kormos` server and 
-place this in corresponding place under the `cms` directory of the project. At time of writing, this
+place this in the corresponding place under the `cms` directory of the project. At time of writing, this
 is located under the `/var/local/sqlite/` directory.
 
 Then download the following two directories from `/home/channels/lancaster` on `kormos` and place them in
@@ -36,7 +36,7 @@ the corresponding place under the `cms` directory of the project:
 Avoid downloading the entire `media` directory as this is liable to take a while and will download a ton
 of inessential files.
 
-Finally, sure to also delete `media/wdp/style-assets/php/lib/src` from your local filesystem otherwise the links
+Finally, make sure to also delete `media/wdp/style-assets/php/lib/src` from your local filesystem otherwise the links
 to `cmslib` won't be setup correctly.
 
 ## Step 4: Configure config.ini file
@@ -74,7 +74,7 @@ get started with enabling some kind of sensible form of local development and fo
 safe and agile environment to work in.
 
 If you find some form of development relies on another source of data on `kormos` (e.g., the `cache` or `feeds` directories
-or the `geoip.sqlite` database, then try downloading that file from the server into the same place locally and most of
+or the `geoip.sqlite` database), then try downloading that file from the server into the same place locally and most of
 the time you should be able to make what you are doing locally work.
 
 
